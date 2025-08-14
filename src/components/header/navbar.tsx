@@ -95,7 +95,7 @@ function SignInButton() {
           <DropdownMenuItem asChild>
             <Link href="/contact">
               <MessageCircle className="mr-2 h-4 w-4" />
-              Reservas
+              Contacto
             </Link>
           </DropdownMenuItem>
         </DropdownMenuGroup>
