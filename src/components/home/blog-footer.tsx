@@ -19,7 +19,7 @@ export default function Footer() {
      </div>
         <div className="   text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} All right reserved by Esoma S. L.
+            © {new Date().getFullYear()} All right reserved 
           </p>
         </div>
         <div className=" text-center">

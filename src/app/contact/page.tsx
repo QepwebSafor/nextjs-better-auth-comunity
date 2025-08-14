@@ -51,7 +51,7 @@ const AddContactForm = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row w-full max-w-md mx-auto  items-stretch">
+    <div className="flex flex-col md:flex-row w-full max-w-md mx-auto  items-stretch mt-8">
       <div className="flex-1 flex flex-col justify-center">
         <Card className="bg-cyan-950 shadow-lg rounded-lg h-full">
           <CardHeader>
