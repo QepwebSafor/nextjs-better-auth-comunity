@@ -1,5 +1,6 @@
 import Link from "next/link";
 import avatarPlaceholder from "@/assets/images/avatar_placeholder.png";
+import logoFondo from "@/assets/images/logoFondo.png";
 import { auth } from "@/lib/auth";
 import { headers } from "next/headers";
 import Image from "next/image";
@@ -33,7 +34,7 @@ const Navbar = async () => {
       {/* Left Section - Logo & Desktop Navigation */}
       <div className="flex items-center w-1/2 justify-between">
         <Image
-          src="/img/logofondo.png"
+          src={logoFondo}
           alt="Esoma"
           width={44}
           height={44}
